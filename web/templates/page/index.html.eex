@@ -1,0 +1,4 @@
+<div class="">
+  <h2><%= gettext "Welcome to %{name}", name: "TODOs!" %></h2>
+  <p class="lead">A simple to do app to... learn Phoenix.</p>
+</div>

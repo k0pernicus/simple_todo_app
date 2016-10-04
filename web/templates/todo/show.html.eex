@@ -1,0 +1,18 @@
+<h2>Show todo</h2>
+
+<ul>
+
+  <li>
+    <strong>Name:</strong>
+    <%= @todo.name %>
+  </li>
+
+  <li>
+    <strong>Due date:</strong>
+    <%= @todo.due_date %>
+  </li>
+
+</ul>
+
+<%= link "Edit", to: todo_path(@conn, :edit, @todo) %>
+<%= link "Back", to: todo_path(@conn, :index) %>

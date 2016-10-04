@@ -10,3 +10,8 @@ To start this app:
   * Start Phoenix endpoint with `mix phoenix.server`
 
 After that, you can visit [`localhost:4000`](http://localhost:4000) from your browser, and play with it.
+
+### Warning
+
+You can't deploy this app on a platform which uses environment variables (like [Heroku](http://heroku.com/)) without changing the configuration file!  
+Please to read the [Phoenix documentation](http://www.phoenixframework.org/docs/heroku) to make these changes.
