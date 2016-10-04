@@ -18,4 +18,4 @@ Please to read the [Phoenix documentation](http://www.phoenixframework.org/docs/
 
 ### How it looks?
 
-[Homepage](https://pageshot.net/13Kcfv3kgdNrT2Uc/localhost)
+[Homepage](https://pageshot.net/Nu13y70Rh5zFnJsp/localhost)
