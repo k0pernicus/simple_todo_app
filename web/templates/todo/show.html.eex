@@ -1,18 +1,10 @@
-<h2>Show todo</h2>
+<h2>My todo <%= @todo.id %></h2>
 
-<ul>
-
-  <li>
-    <strong>Name:</strong>
-    <%= @todo.name %>
-  </li>
-
-  <li>
-    <strong>Due date:</strong>
-    <%= @todo.due_date %>
-  </li>
-
-</ul>
+<div class="jumbotron">
+<h2><%= @todo.name %></h2>
+<p>before <%= @todo.due_date %>!</p>
+</div>
 
 <%= link "Edit", to: todo_path(@conn, :edit, @todo) %>
+</br>
 <%= link "Back", to: todo_path(@conn, :index) %>
