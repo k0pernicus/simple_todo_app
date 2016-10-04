@@ -15,3 +15,7 @@ After that, you can visit [`localhost:4000`](http://localhost:4000) from your br
 
 You can't deploy this app on a platform which uses environment variables (like [Heroku](http://heroku.com/)) without changing the configuration file!  
 Please to read the [Phoenix documentation](http://www.phoenixframework.org/docs/heroku) to make these changes.
+
+### How it looks?
+
+[Homepage](https://pageshot.net/13Kcfv3kgdNrT2Uc/localhost)
