@@ -17,18 +17,18 @@ After that, you can visit [`localhost:4000`](http://localhost:4000) from your br
 
 ### With Docker
 
-First you need to build the *phoenix* image by running
+First, you need to build the *phoenix* image by running
 
 `docker build -t phoenix docker`
 
-Then you can run the application
+Then, you can run the application
 
 ```bash
 cd docker
 docker-compose up -d
 ```
 
-It will take awhile for the first deploy as it install all dependencies for the projet. Visit [`localhost:4000`](http://localhost:4000) from your browser, the page will automatically be reloaded when the application starts.
+*For the first deployment it can take awhile.*
 
 ### Warning
 
