@@ -39,5 +39,6 @@ config :simple_todo_app, SimpleTodoApp.Repo,
   username: "postgres",
   password: "postgres",
   database: "simple_todo_app_dev",
-  hostname: "localhost",
+  hostname: "postgres-todo",
+  port: 5432,
   pool_size: 10
