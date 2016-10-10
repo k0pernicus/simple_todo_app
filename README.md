@@ -2,6 +2,8 @@
 
 A simple todo app to explore [Phoenix](https://phoenixframework.org), a web framework made with [Elixir](https://elixir-lang.org).
 
+This app uses _Elixir 1.3.3_ and _Phoenix 1.2_.
+
 ## Installation
 
 ### Manually
