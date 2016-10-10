@@ -39,6 +39,7 @@ config :simple_todo_app, SimpleTodoApp.Repo,
   username: "postgres",
   password: "postgres",
   database: "simple_todo_app_dev",
-  hostname: "postgres-todo",
+  # FOR DOCKER: hostname: "postgres-todo",
+  hostname: "localhost",
   port: 5432,
   pool_size: 10
