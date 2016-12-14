@@ -19,18 +19,13 @@ After that, you can visit [`localhost:4000`](http://localhost:4000) from your br
 
 ### With Docker
 
-First, you need to build the *phoenix* image by running
+First, you need to build the image for this application by running
 
-`docker build -t phoenix docker`
+`docker build -t simple-todo-app .`
 
 Then, you can run the application
 
-```bash
-cd docker
-docker-compose up -d
-```
-
-*For the first deployment it can take awhile.*
+`docker-compose up -d`
 
 ### Warning
 
