@@ -1,19 +1,16 @@
 version: "2"
 services:
   todo:
-    image: phoenix
+    image: simple-todo-app
     container_name: todoApp
     ports:
     - 4000:4000/tcp
-    volumes:
-    - ../:/app
-    command: docker/init.sh
     depends_on:
     - dbTest
 
   dbTest:
     container_name: postgres-todo
-    image: postgres
+    image: postgres:9.6
     hostname: postgres
     environment:
     - POSTGRES_PASSWORD=postgres
